@@ -17,12 +17,12 @@ environment including:
   Pyramid scaffolds (project templates) shipped with Pyramid.
 * ``pserve`` - Used to start a WSGI server.
 
-Using the ``pcreate`` script, we will create our project using the alchemy
+Using the ``cookiecutter`` script, we will create our project using the alchemy
 scaffold, which will provide SQLAlchemy as our default ORM layer.
 
 .. code-block:: bash
 
-    $ $VENV/bin/pcreate -s alchemy pyramid_blogr
+    $ cookiecutter https://github.com/Pylons/pyramid-cookiecutter-alchemy
 
 We will end up with the directory ``pyramid_blogr`` which should have the
 structure as explained below.
