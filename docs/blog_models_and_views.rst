@@ -216,7 +216,7 @@ This view is very simple.  First we get the ``id`` variable from our route.  It
 will be present in the ``matchdict`` property of the request object.  All of
 our defined route arguments will end up there.
 
-After we get the entry id, it will be passed to the ``BlogRecord`` class method
+After we get the entry id, it will be passed to the ``BlogRecordService`` class method
 ``by_id()`` to fetch a specific blog entry.  If it's found, we return the
 database row for the template to use, otherwise we present the user with a
 standard 404 response.
