@@ -193,7 +193,7 @@ following imports
 .. literalinclude:: src/blog_models_and_views/views/blog.py
     :language: python
     :linenos:
-    :lines: 2-4
+    :lines: 1-4
     :lineno-start: 2
 
 Those HTTP exceptions will be used to perform redirects inside our apps.
